@@ -1,0 +1,1 @@
+var e=`https://s.folotoy.cn`;function t(t){return`${e}/${t.replace(/^\/+/,``)}`}export{t};

@@ -1,0 +1,194 @@
+.passport-ui .account-dropdown{background:var(--passport-surface,#17191a);border:1px solid var(--passport-line,#353a37);border-radius:12px;width:232px;max-width:calc(100vw - 32px);padding:6px;box-shadow:0 12px 36px #0005}.passport-ui .account-dropdown>*{padding:0}.passport-ui .account-dropdown .account-dropdown-identity{border-bottom:1px solid #ffffff12;padding:12px 12px 14px}.account-dropdown-identity>span{color:#8d9490;font:400 11px/1.5 var(--font-body);margin-bottom:4px;display:block}.account-dropdown-identity>strong{color:#f0f2ef;font:600 15px/1.5 var(--font-body);overflow-wrap:anywhere;display:block}.passport-ui .account-dropdown .account-dropdown-links{gap:2px;padding:6px 0;display:grid}.passport-ui .account-dropdown :is(.account-dropdown-links a,.account-dropdown-footer button){box-sizing:border-box;color:#dce0dc;width:100%;min-height:40px;font:400 13px/1.5 var(--font-body);text-align:left;background:0 0;border:0;border-radius:7px;align-items:center;gap:10px;margin:0;padding:9px 12px;text-decoration:none;display:flex}.passport-ui .account-dropdown :is(a,button)>svg{color:#919a94;flex-shrink:0}.passport-ui .account-dropdown :is(a,button):hover{color:#fff;background:#ffffff0a}.passport-ui .account-dropdown .account-dropdown-footer{border-top:1px solid #ffffff12;padding-top:6px}.passport-ui .account-dropdown .account-dropdown-footer button{color:#9ca59e}.passport-ui .account-dropdown .account-dropdown-error{color:#efa9a9;padding:8px 12px;font-size:12px}.passport-ui .account-dropdown .account-points-link strong{color:#62d9a5;font-variant-numeric:tabular-nums;margin-left:auto;font-size:14px;font-weight:600}body.passport-ui .site-header .mobile-nav{transform-origin:top;transition:none}@media (max-width:1180px){body.passport-ui .site-header:not(.site-header-module) .mobile-menu-scrim{height:calc(100dvh - 72px);bottom:auto}}@media (max-width:760px){body.passport-ui .site-header:not(.site-header-module) .mobile-menu-scrim{height:calc(100dvh - 64px)}}.activity-page{width:min(1240px,100% - 64px);color:var(--passport-text);font-family:var(--font-body);margin:auto;padding:112px 0 64px}.activity-page :is(h1,h2,h3){letter-spacing:-.02em;font-weight:500;line-height:1.4}.activity-page h1{font-size:36px}.activity-page h2{font-size:28px}.activity-page h3{font-size:18px}.activity-page p{color:var(--passport-muted);white-space:pre-line;font-size:14px;line-height:1.8}.activity-page .button{justify-content:center;min-height:46px;padding:12px 18px;font-size:14px;line-height:1.5}.activity-page .button:disabled{opacity:.55;cursor:not-allowed}.activity-eyebrow{color:var(--passport-green);font:400 11px/1.7 var(--font-mono);letter-spacing:.06em;display:block}.activity-status{background:var(--passport-green-soft);color:var(--passport-green);border:1px solid #20e47c30;border-radius:6px;padding:4px 9px;font-size:12px;line-height:1.6;display:inline-block}.activity-hero{grid-template-columns:1.16fr 1fr;align-items:center;gap:52px;padding:20px 0 64px;display:grid}.activity-hero .activity-eyebrow{flex-wrap:wrap;align-items:center;gap:16px;display:flex}.activity-hero h1{text-wrap:balance;white-space:pre-line;margin:20px 0 24px;font-size:clamp(36px,3.65vw,52px);line-height:1.35}.activity-intro{max-width:560px;margin:0 0 24px}.activity-hero-art{aspect-ratio:1.1;object-fit:cover;border-radius:16px;width:100%;display:block}.activity-facts{gap:14px;margin:24px 0;font-size:15px;line-height:1.7;display:grid}.activity-facts strong{font-size:17px;font-weight:500}.activity-facts small{color:var(--passport-muted);font-size:12px;font-weight:400}.activity-actions{flex-wrap:wrap;align-items:center;gap:12px;display:flex}.activity-hint{margin:14px 0 0;font-size:12px!important;line-height:1.7!important}.activity-scale{border-block:1px solid var(--passport-line);padding:22px 0;margin:0!important;font-size:16px!important}.activity-section{border-bottom:1px solid var(--passport-line);padding:60px 0;scroll-margin-top:92px}.activity-section-title{margin-bottom:28px}.activity-section h2{margin:12px 0 28px}.activity-benefits{grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;display:grid}.activity-benefits article{background:var(--passport-surface);border:1px solid var(--passport-line);border-radius:14px;padding:26px}.activity-benefits h3{margin:20px 0 14px}.activity-benefits p{margin:0;font-size:13px}.activity-agenda{grid-template-columns:1fr 1fr;gap:40px;display:grid}.activity-agenda article{border-bottom:1px solid var(--passport-line);grid-template-columns:70px 1fr;gap:18px;padding:22px 0;display:grid}.activity-agenda article>span{color:var(--passport-green);font:400 16px/1.5 var(--font-mono)}.activity-agenda h3{margin:0 0 8px;font-size:16px}.activity-agenda article p{margin:0;font-size:13px}.activity-agenda aside{background:var(--passport-green-soft);border:1px solid #20e47c30;border-radius:14px;padding:28px}.activity-agenda aside h3{margin:0 0 18px}.activity-agenda ul{color:var(--passport-muted);margin:0;padding-left:20px;font-size:14px;line-height:2}.activity-venue{background:var(--passport-surface);border-radius:14px;padding:24px 28px}.activity-venue p:first-child{color:var(--passport-text);margin-top:0;font-size:16px}.activity-reward{max-width:900px;margin-top:24px;font-size:13px!important}.activity-showcase-heading{justify-content:space-between;align-items:center;gap:24px;margin-bottom:26px;display:flex}.activity-showcase-heading h2{margin-bottom:0}.activity-empty{border:1px dashed var(--passport-line);background:var(--passport-surface);text-align:center;border-radius:14px;padding:44px 24px}.activity-empty h3{margin:0 0 12px}.activity-empty p{margin:12px auto 0}.activity-empty .button{margin-top:20px}.activity-work-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;display:grid}.activity-work-grid article{border:1px solid var(--passport-line);background:var(--passport-surface);border-radius:10px;align-items:center;gap:14px;min-width:0;padding:16px;display:flex}.activity-work-grid article:hover{border-color:var(--passport-line-strong)}.activity-work-grid .activity-work-cover{cursor:pointer;background:0 0;border:0;border-radius:7px;flex:none;padding:0;display:block}.activity-work-grid .activity-work-cover img{object-fit:cover;border-radius:7px;flex:none;width:64px;height:86px;display:block}.activity-work-copy{flex:1;gap:6px;min-width:0;display:grid}.activity-work-grid .activity-work-copy h3{-webkit-line-clamp:2;overflow-wrap:anywhere;-webkit-box-orient:vertical;margin:0;font-size:14px;font-weight:500;line-height:1.45;display:-webkit-box;overflow:hidden}.activity-work-copy>span{color:var(--passport-muted);text-overflow:ellipsis;white-space:nowrap;font-size:12px;overflow:hidden}.activity-work-grid .activity-work-install{justify-self:start;gap:8px;min-height:36px;padding:6px 12px;font-size:12px}.activity-own-works{background:var(--passport-surface);border-radius:14px;margin-top:24px;padding:20px}.activity-own-works h3{margin-top:0}.activity-own-works a{color:var(--passport-green)}.activity-text-button{min-height:40px;color:var(--passport-green);font:inherit;cursor:pointer;background:0 0;border:0;padding:8px 0;font-size:14px}.activity-page-head{padding:0 0 24px}.activity-page-head>a{color:var(--passport-muted);font-size:13px}.activity-page-head h1{margin:18px 0 12px}.activity-page-head p{margin:0}.activity-registration-layout{grid-template-columns:1.3fr .85fr;align-items:start;gap:36px;max-width:1000px;margin:0 auto;display:grid}.activity-registration-summary{background:var(--passport-surface);border-top:3px solid var(--passport-green);border-radius:14px;grid-area:1/2;padding:24px}.activity-registration-summary h2{margin:0 0 18px;font-size:20px}.activity-registration-summary p{margin:12px 0;font-size:13px}.activity-registration-summary .activity-status{margin-top:12px}.activity-form-card{background:var(--passport-surface);border:1px solid var(--passport-line);border-radius:16px;grid-area:1/1;gap:22px;padding:28px;display:grid}.activity-form-card h2,.activity-form-card h3,.activity-form-card>p{margin:0}.activity-form-card label{color:var(--passport-muted);gap:9px;font-size:13px;display:grid}.activity-form-card :is(input:not([type=checkbox]),select,textarea){border:1px solid var(--passport-line);background:var(--passport-bg);width:100%;min-width:0;min-height:46px;color:var(--passport-text);font:400 14px/1.5 var(--font-body);border-radius:9px;padding:12px}.activity-form-card textarea{resize:vertical;min-height:116px}.activity-form-card .activity-checkbox{align-items:flex-start;gap:10px;font-size:13px;line-height:1.8;display:flex}.activity-checkbox input{width:17px;height:17px;accent-color:var(--passport-green);flex:none;margin-top:3px}.activity-required{color:var(--passport-green)}.activity-multiselect{gap:10px;display:grid}.activity-multiselect label{align-items:center;gap:10px;display:flex}.activity-error{white-space:pre-wrap;overflow-wrap:anywhere;color:#ffb4b4!important;font-size:13px!important;line-height:1.6!important}.activity-state{min-height:60vh}.activity-state h1{font-size:28px}.activity-ticket-heading{text-align:center;margin:24px 0 28px}.activity-ticket-heading>span{border:1px solid var(--passport-green);width:48px;height:48px;color:var(--passport-green);border-radius:50%;place-items:center;margin:auto;font-size:24px;display:grid}.activity-ticket-heading h1{margin:16px 0 12px}.activity-ticket-heading p{margin:0}.activity-ticket{border:1px solid var(--passport-line);background:var(--passport-surface);border-radius:16px;width:min(600px,100%);margin:auto;padding:28px 32px}.activity-ticket h2{margin:0 0 18px;font-size:23px}.activity-ticket>p{font-size:13px}.activity-qr{border-block:1px dashed var(--passport-line);justify-content:center;align-items:center;gap:26px;margin:24px 0;padding:24px 0;display:flex}.activity-qr img{background:#fff;border-radius:8px;flex:none;width:200px;height:200px;display:block}.activity-qr strong{font-size:17px;font-weight:500}.activity-qr p{font-size:12px}.activity-qr a{color:var(--passport-green);font-size:13px}.activity-ticket dl{grid-template-columns:1fr 1fr;gap:20px;margin:0;display:grid}.activity-ticket dt{color:var(--passport-muted);margin-bottom:7px;font-size:12px}.activity-ticket dd{overflow-wrap:anywhere;margin:0;font-size:14px}.activity-ticket-actions{flex-wrap:wrap;justify-content:center;gap:12px;margin:28px 0;display:flex}.activity-ticket-actions~.activity-hint{text-align:center}.activity-registrations{gap:18px;display:grid}.activity-registrations article{border:1px solid var(--passport-line);background:var(--passport-surface);border-radius:14px;align-items:center;gap:24px;padding:24px;display:flex}.activity-registrations article>div{flex:1;min-width:0}.activity-registrations img{aspect-ratio:3/2;object-fit:cover;border-radius:9px;width:144px}.activity-registrations h2{margin:12px 0;font-size:20px}.activity-registrations p{margin:5px 0;font-size:13px}.activity-mobile-action{display:none}@media (max-width:760px){.activity-page{width:calc(100% - 40px);padding-top:96px;padding-bottom:40px}.activity-page h1{font-size:28px}.activity-page h2{font-size:24px}.activity-hero{grid-template-columns:minmax(0,1fr);gap:26px;padding:8px 0 36px}.activity-hero h1{margin:16px 0 22px;font-size:30px;line-height:1.4}.activity-hero-art{aspect-ratio:1.5}.activity-facts{gap:12px;margin:22px 0;font-size:14px}.activity-facts strong{font-size:15px}.activity-actions .button{min-height:46px}.activity-scale{font-size:14px!important}.activity-section{padding:36px 0}.activity-benefits,.activity-agenda{grid-template-columns:minmax(0,1fr);gap:18px}.activity-benefits article,.activity-agenda aside,.activity-venue{padding:22px}.activity-showcase-heading{flex-direction:column;align-items:flex-start;gap:18px}.activity-work-grid{grid-template-columns:1fr;gap:12px}.activity-work-grid article{padding:14px}.activity-work-grid .activity-work-install{min-height:44px}.activity-registration-layout{flex-direction:column;gap:22px;display:flex}.activity-registration-summary{width:100%;padding:18px}.activity-registration-summary h2{margin:0 0 12px;font-size:17px}.activity-registration-summary p{margin:8px 0;font-size:12px}.activity-registration-summary .activity-status{margin-top:8px}.activity-form-card{gap:22px;width:100%;padding:22px}.activity-form-card :is(input:not([type=checkbox]),textarea,select){font-size:16px}.activity-ticket{padding:24px}.activity-ticket h2{font-size:20px}.activity-ticket-heading h1{font-size:28px}.activity-qr{text-align:center;flex-direction:column;gap:18px}.activity-ticket dl{grid-template-columns:1fr}.activity-registrations article{flex-direction:column;align-items:flex-start;gap:12px;padding:22px}.activity-registrations img{display:none}.activity-registrations h2{font-size:18px}.activity-mobile-action{z-index:80;padding:12px 20px calc(12px + env(safe-area-inset-bottom));border-top:1px solid var(--passport-line);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);background:#17181bf5;justify-content:space-between;align-items:center;gap:12px;display:flex;position:fixed;bottom:0;left:0;right:0}.activity-mobile-action>span{font-size:12px;line-height:1.6}.activity-mobile-action small{color:var(--passport-muted);font-size:11px;display:block}.activity-mobile-action .button{flex:none;min-height:44px}.activity-landing{padding-bottom:116px}}@media (max-width:360px){.activity-page{width:calc(100% - 32px)}.activity-hero h1{font-size:27px}.activity-hero .activity-eyebrow{gap:10px}.activity-mobile-action{padding-inline:16px}.activity-mobile-action .button{padding-inline:12px;font-size:13px}.activity-form-card{padding:18px}.activity-work-grid{grid-template-columns:1fr}}.activity-submission-context{border:1px solid var(--passport-line);border-radius:12px;gap:16px;min-width:0;padding:20px;display:grid}.activity-submission-context legend{padding:0 8px;font-size:14px}.activity-submission-context p{color:var(--passport-muted);margin:0;font-size:13px;line-height:1.7}.activity-submission-context .activity-checkbox{align-items:flex-start;gap:10px;line-height:1.7;display:flex}.activity-submission-context strong{font-weight:500}.activity-hero-text{grid-template-columns:1fr;max-width:900px}.passport-ui .creator-form .activity-checkbox input[type=checkbox],.passport-ui .activity-multiselect input[type=checkbox]{border-radius:3px;align-self:flex-start;width:17px;height:17px;min-height:0;padding:0}@media (max-width:760px){.passport-ui .activity-page .activity-form-card.creator-form :is(input:not([type=checkbox]):not([type=radio]):not([type=file]),textarea,select){font-size:16px}}.activity-ai-context{border:1px solid var(--passport-line);border-radius:10px;margin:16px 0;padding:16px}.activity-ai-context strong{font-size:14px;font-weight:500}.activity-ai-context p{color:var(--passport-muted);font-size:13px;line-height:1.7}.activity-ai-context .activity-checkbox{align-items:flex-start;gap:10px;font-size:13px;line-height:1.7;display:flex}.activity-work-title{color:inherit;text-align:left;font:inherit;cursor:pointer;background:0 0;border:0;padding:0}.activity-work-title:hover{color:var(--passport-green)}:is(.activity-work-title:focus-visible,.activity-work-cover:focus-visible){outline:2px solid var(--passport-green);outline-offset:4px}.activity-benefits .activity-step-number{color:var(--passport-green);font-family:var(--font-mono);margin-bottom:16px;font-size:13px;display:block}.activity-preparation{border-top:1px solid var(--passport-line);color:var(--passport-muted);flex-wrap:wrap;align-items:center;gap:14px 24px;margin-top:18px;padding:18px 0 0;font-size:13px;display:flex}.activity-preparation strong{color:var(--passport-text);font-size:13px;font-weight:500}.activity-preparation ul{flex-wrap:wrap;gap:8px 18px;margin:0;padding:0;list-style:none;display:flex}.activity-preparation li{margin:0}.activity-preparation li+li:before{content:"·";color:var(--passport-line-strong);margin-right:18px}.activity-journey-heading{justify-content:space-between;align-items:center;gap:16px;display:flex}.activity-journey-heading h2{margin:0}.activity-motion-toggle{color:var(--passport-muted);font:400 12px/1.5 var(--font-body);cursor:pointer;background:0 0;border:0;flex:none;align-items:center;gap:7px;padding:6px 0;display:flex}.activity-motion-toggle:hover{color:var(--passport-green)}.activity-motion-toggle:focus-visible{outline:2px solid var(--passport-green);outline-offset:4px}.activity-journey-step{position:relative;overflow:hidden}.activity-pixel-scene{width:100%;height:104px;color:var(--passport-green);background-color:#0000;background-image:linear-gradient(#0000 95%,#353a3725 95%),linear-gradient(90deg,#0000 95%,#353a3725 95%);background-position:0 0,0 0;background-repeat:repeat,repeat;background-size:12px 12px;background-attachment:scroll,scroll;background-origin:padding-box,padding-box;background-clip:border-box,border-box;display:block}.activity-journey-step .activity-step-number{color:var(--passport-muted);font-size:11px;position:absolute;top:14px;right:18px}.activity-journey-step .pixel-idea,.activity-journey-step .pixel-spark{animation:3.5s steps(2,end) activity-pixel-float;animation-delay:var(--pixel-delay)}.activity-journey-step .pixel-person-second,.activity-journey-step .pixel-game{animation:3.5s steps(2,end) activity-pixel-bob;animation-delay:var(--pixel-delay)}.activity-journey-step .pixel-code{animation:3.5s steps(2,end) activity-pixel-code;animation-delay:var(--pixel-delay)}.activity-journey-step .pixel-cursor{animation:1.5s step-end 2 activity-pixel-cursor}.activity-motion-paused .activity-pixel-scene *{animation-play-state:paused}.activity-journey-step h3{margin-top:20px}.activity-journey-step p{max-width:36em}@keyframes activity-pixel-float{0%,70%,to{transform:translateY(0)}20%,45%{transform:translateY(-4px)}}@keyframes activity-pixel-bob{0%,70%,to{transform:translateY(0)}30%,50%{transform:translateY(-2px)}}@keyframes activity-pixel-code{0%,to{opacity:.65}20%,70%{opacity:1}}@keyframes activity-pixel-cursor{0%,to{opacity:1}50%{opacity:.25}}@media (prefers-reduced-motion:reduce){.activity-pixel-scene *{animation:none!important}.activity-motion-toggle{display:none}}@media (max-width:760px){.activity-pixel-scene{height:100px}.activity-journey-heading{align-items:center}.activity-journey-heading h2{font-size:22px}.activity-journey-step h3{margin-top:16px}.activity-preparation{margin-top:18px;padding-top:18px;display:block}.activity-preparation strong{margin-bottom:12px;display:block}.activity-preparation ul{gap:9px;display:grid}.activity-preparation li{align-items:baseline;gap:10px;line-height:1.6;display:flex}.activity-preparation li:before{content:"";background:var(--passport-muted);border-radius:1px;flex:none;align-self:center;width:4px;height:4px;margin:0;display:block}.activity-preparation li+li:before{content:"";margin:0}}.activity-inspiration-heading{justify-content:space-between;align-items:center;gap:24px;margin-bottom:24px;display:flex}.activity-inspiration-label{color:var(--passport-green);font-size:12px}.activity-inspiration-heading h2{margin:10px 0 12px}.activity-inspiration-heading p{margin:0}.activity-inspiration-heading>a{color:var(--passport-muted);flex:none;font-size:13px}.activity-inspiration-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;display:grid}.activity-inspiration-grid article{border:1px solid var(--passport-line);background:var(--passport-surface);border-radius:12px;grid-template-columns:96px minmax(0,1fr);gap:18px;padding:20px;display:grid}.activity-inspiration-cover{background:var(--passport-bg);cursor:pointer;border:0;border-radius:8px;align-self:start;padding:0;overflow:hidden}.activity-inspiration-cover img{aspect-ratio:3/4;object-fit:cover;width:100%;display:block}.activity-inspiration-author{color:var(--passport-muted);font-size:11px;display:block}.activity-inspiration-grid article p{-webkit-line-clamp:3;-webkit-box-orient:vertical;margin:0;font-size:12px;line-height:1.65;display:-webkit-box;overflow:hidden}.activity-inspiration-install{color:var(--passport-green);font:400 12px/1.5 var(--font-body);cursor:pointer;background:0 0;border:0;align-items:center;gap:8px;padding:8px 0 0;display:flex}.activity-inspiration-invite{color:var(--passport-text)!important;margin:24px 0 0!important}:is(.activity-inspiration-cover:focus-visible,.activity-inspiration-install:focus-visible){outline:2px solid var(--passport-green);outline-offset:4px}@media (max-width:1050px){.activity-inspiration-grid article{grid-template-columns:76px minmax(0,1fr);gap:12px;padding:16px}}@media (max-width:760px){.activity-inspiration-heading{flex-direction:column;align-items:flex-start;gap:12px}.activity-inspiration-heading h2{font-size:24px}.activity-inspiration-grid{grid-template-columns:1fr;gap:12px}.activity-inspiration-grid article{grid-template-columns:82px minmax(0,1fr);gap:16px;padding:16px}.activity-inspiration-grid article p{font-size:13px}.activity-inspiration-install{min-height:44px;padding-top:4px}.activity-inspiration-invite{font-size:14px!important}}.activity-inspiration-category{color:var(--passport-green);margin-bottom:8px;font-size:11px;line-height:1.5;display:block}.activity-inspiration-category small{color:var(--passport-muted);margin-left:8px;font-size:10px}.activity-inspiration-grid{scroll-snap-type:x mandatory;overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:var(--passport-line) transparent;min-width:0;padding-bottom:14px;display:flex;overflow-x:auto}.activity-inspiration-grid article{box-sizing:border-box;scroll-snap-align:start;flex:0 0 calc(33.3333% - 12px);min-width:0}.activity-inspiration-grid h3{-webkit-line-clamp:2;-webkit-box-orient:vertical;display:-webkit-box;overflow:hidden}.activity-inspiration-controls{flex:none;align-items:center;gap:10px;display:flex}.activity-inspiration-controls a{color:var(--passport-muted);margin-right:8px;font-size:13px}.activity-inspiration-controls button{border:1px solid var(--passport-line);background:var(--passport-surface);width:40px;min-width:40px;height:40px;color:var(--passport-text);font:400 16px/1 var(--font-body);cursor:pointer;border-radius:50%;place-items:center;padding:0;display:grid}.activity-inspiration-controls button:disabled{opacity:.35;cursor:default}.activity-inspiration-controls button:focus-visible{outline:2px solid var(--passport-green);outline-offset:3px}@media (max-width:1050px){.activity-inspiration-grid article{flex-basis:calc(50% - 9px)}}@media (max-width:760px){.activity-inspiration-grid article{flex-basis:88%}.activity-inspiration-controls{justify-content:flex-end;width:100%}.activity-inspiration-controls a{margin-right:auto}.activity-inspiration-controls button{width:44px;min-width:44px;height:44px}.activity-inspiration-grid article{grid-template-columns:72px minmax(0,1fr);gap:12px}}.activity-bottom-action{justify-content:space-between;align-items:center;gap:24px;padding:36px 0 0;display:flex}.activity-bottom-action h2{margin:0;font-size:24px}.activity-bottom-action>.button{flex:none}@media (max-width:760px){.activity-bottom-action{flex-direction:column;align-items:flex-start;gap:20px;padding-top:28px}.activity-bottom-action h2{font-size:22px}.activity-bottom-action>.button{width:100%}}.activity-inspiration-grid{gap:14px}.activity-inspiration-grid article{flex-basis:calc(25% - 10.5px);grid-template-columns:56px minmax(0,1fr);gap:12px;padding:14px}.activity-inspiration-grid article p{-webkit-line-clamp:2;font-size:12px}.activity-inspiration-grid h3{margin:6px 0;font-size:14px}.activity-inspiration-category{margin-bottom:5px;font-size:10px}.activity-inspiration-author{font-size:11px}.activity-inspiration-install{padding-top:6px}.activity-inspiration-category small{margin-left:5px}.activity-showcase-actions{align-items:center;gap:12px;display:flex}.activity-work-grid{scroll-snap-type:x mandatory;overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:var(--passport-line) transparent;gap:14px;min-width:0;padding-bottom:12px;display:flex;overflow-x:auto}.activity-work-grid article{box-sizing:border-box;scroll-snap-align:start;flex:0 0 calc(25% - 10.5px);gap:12px;min-width:0;padding:12px}.activity-work-grid .activity-work-cover img{width:48px;height:64px}.activity-work-grid .activity-work-copy h3{font-size:13px}.activity-work-copy>span{font-size:11px}.activity-work-grid .activity-work-install{width:auto;min-height:34px;font-size:12px}.activity-hero-product{aspect-ratio:1.1;background:radial-gradient(at 15% 15%,#f8fdfa,#dff2e7 75%);border-radius:16px;width:100%;position:relative;overflow:hidden}.activity-hero-product img{object-fit:contain;filter:drop-shadow(0 15px 10px #0e302326);width:49%;height:83%;position:absolute}.activity-product-back{top:7%;left:8%;transform:rotate(-12deg)}.activity-product-front{bottom:7%;right:9%;transform:rotate(9deg)}@media (max-width:1050px){.activity-inspiration-grid article,.activity-work-grid article{flex-basis:calc(33.3333% - 9.33333px)}}@media (max-width:760px){.activity-inspiration-grid article,.activity-work-grid article{flex-basis:260px;padding:12px}.activity-inspiration-grid article{grid-template-columns:48px minmax(0,1fr);gap:10px}.activity-inspiration-grid article p{font-size:12px}.activity-inspiration-install,.activity-work-grid .activity-work-install{min-height:44px}.activity-showcase-actions{justify-content:flex-end;width:100%}.activity-showcase-actions .activity-inspiration-controls{width:auto}.activity-hero-product{aspect-ratio:1.5}}.activity-inspiration-grid,.activity-work-grid{overflow-y:hidden}.passport-ui .activity-page .activity-work-grid .activity-work-install{width:auto;min-width:0;max-width:100%}.activity-inspiration-grid .activity-play-card{border:1px solid var(--passport-line);background:var(--passport-surface);border-radius:12px;grid-template-columns:56px minmax(0,1fr);align-items:start;gap:12px;min-width:0;padding:14px;display:grid}.activity-card-body{min-width:0}.activity-inspiration-grid .activity-play-card h3{margin:6px 0;font-size:14px;font-weight:500;line-height:1.45;display:block;overflow:hidden}.activity-inspiration-grid .activity-work-title{white-space:nowrap;text-overflow:ellipsis;width:100%;display:block;overflow:hidden}.activity-inspiration-grid .activity-play-card .activity-inspiration-install{width:auto;min-width:0;max-width:100%;min-height:34px;color:var(--passport-green);font:400 12px/1.5 var(--font-body);background:0 0;border:0;padding:6px 0 0}@media (max-width:760px){.activity-inspiration-grid .activity-play-card{grid-template-columns:48px minmax(0,1fr);gap:10px;padding:12px}.activity-inspiration-grid .activity-play-card .activity-inspiration-install{min-height:44px}}
+
+/* ===== 本地化改造：隐藏不需要的入口（HTML 已删，此处兜底防止水合复原） ===== */
+.desktop-nav-utilities,
+.mobile-community-cta,
+.mobile-purchase-cta,
+a.language-switch[href="/en/"],
+a.language-switch[href^="/en/"] {
+  display: none !important;
+}
+
+/* ===== 本地化改造：隐藏不需要的入口（保留 DOM 结构以维持水合一致，仅视觉隐藏） ===== */
+.desktop-nav-utilities,
+.mobile-community-cta,
+.mobile-purchase-cta,
+a.language-switch[href="/en/"],
+a.language-switch[href^="/en/"] {
+  display: none !important;
+}
+
+/* ===== 本地化改造：隐藏「教程」「刷机工具」相关入口（DOM 保留以维持水合一致） ===== */
+/* 桌面主导航 */
+.desktop-nav-primary > a[href="/guides/"],
+.desktop-nav-primary > a[href="/tools/web-flasher/"] {
+  display: none !important;
+}
+/* 移动端汉堡菜单 */
+div.mobile-nav-links > a[href="/guides/"],
+div.mobile-nav-links > a[href="/tools/web-flasher/"] {
+  display: none !important;
+}
+/* 移动端顶部快捷导航（只有玩法社区和教程两项，教程隐藏后该条变空，整条隐藏） */
+nav.mobile-primary-nav {
+  display: none !important;
+}
+/* hero 区页内导览的「04 使用指南」锚点 */
+a[href="#field-guide"] {
+  display: none !important;
+}
+/* 页面中部「使用指南」整个板块（8 篇教程卡片） */
+section#field-guide {
+  display: none !important;
+}
+/* 页脚：支持栏的 教程/使用支持/刷机工具，创作栏的 玩法开发 */
+footer a[href^="/guides/"],
+footer a[href="/tools/web-flasher/"] {
+  display: none !important;
+}
+
+/* ===== 本地化改造：hero 正背面卡片适配方形图片（原图 605x931 竖版，新图 1080x1080 方图） ===== */
+.hero-product-card img {
+  height: auto !important;
+  width: auto !important;
+  max-width: none !important;
+  max-height: 336px !important;
+}
+.hero-product-card {
+  width: auto !important;
+  height: auto !important;
+  min-width: 228px;
+  min-height: 348px;
+  aspect-ratio: 1 / 1;
+}
+/* 移动端断点的卡片尺寸同步放开 */
+@media (max-width: 720px) {
+  .hero-product-card img {
+    max-height: 255px !important;
+  }
+  .hero-product-card {
+    min-width: 171px;
+    min-height: 261px;
+  }
+}
+
+/* ===== 本地化改造：隐藏登录/账号相关入口（DOM 保留以维持水合一致） ===== */
+/* 桌面右上角「登录」 */
+.header-actions .account-menu {
+  display: none !important;
+}
+/* 移动端汉堡菜单「登录 / 个人中心」和「发布社区固件」 */
+.mobile-nav-utilities > a[href="/account/"],
+.mobile-nav-actions > .mobile-creator-cta {
+  display: none !important;
+}
+/* 页脚「创作者中心」 */
+footer a[href="/account/"] {
+  display: none !important;
+}
+
+/* ===== 本地化改造：移除购买入口与定制板块（DOM 保留以维持水合一致） ===== */
+/* hero 区「查看定制与购买」按钮 */
+.event-hero-actions > a.button-primary {
+  display: none !important;
+}
+/* 整个 DIY 定制/购买板块（含价格、贴纸预览、购买平台按钮） */
+section#diy {
+  display: none !important;
+}
+
+/* ===== 本地化改造：hero 按钮区并入本页导览（DOM 保留以维持水合一致） =====
+   「查看课程安排」与导览 03「课程结构」同指 #official-plays，功能重复；
+   整个 hero 按钮区隐藏，课程入口由本页导览承接。 */
+.event-hero-actions {
+  display: none !important;
+}
+
+/* ===== 本地化改造：hero 高度收紧 =====
+   按钮区移除后底部留白过大，不再占满整屏（原桌面 max(720px,100svh)）。 */
+.event-hero {
+  min-height: clamp(620px, 86svh, 1000px) !important;
+}
+/* 移动端原为 clamp(700px,100svh,780px) 且底部为按钮预留 132px 内边距，一并收紧 */
+@media (max-width: 720px) {
+  .event-hero {
+    min-height: clamp(620px, 84svh, 780px) !important;
+    padding-bottom: 48px !important;
+  }
+}
+
+/* ===== 本地化改造：本页导览条吸顶 =====
+   站点页头 fixed 在顶部（高 64px，滚动收缩后 top:16px + 圆角条），
+   导览条 sticky 紧贴页头下方吸住。 */
+.home-section-nav {
+  position: sticky !important;
+  top: 64px !important;
+  z-index: 90 !important;
+  /* 滚动悬浮时加深底色，与网格背景叠加保持文字可读 */
+  background-color: #0a0d0ef2 !important;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+/* ===== 本地化改造：移动端本页导览单行化 =====
+   原：标题行 + 条目横向滚动行（两行）；现：4 部分等分一行，
+   只保留文字标签（隐藏序号与↓箭头），保证窄屏下不换行。 */
+@media (max-width: 720px) {
+  .home-section-nav-inner {
+    display: grid !important;
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    width: 100% !important;
+    min-height: 0 !important;
+  }
+  /* 「本页导览」标题行收起 */
+  .home-section-nav-inner > span {
+    display: none !important;
+  }
+  .home-section-nav-inner > div {
+    display: grid !important;
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    overflow: visible !important;
+    padding-left: 0 !important;
+  }
+  .home-section-nav a {
+    min-width: 0 !important;
+    min-height: 54px !important;
+    padding: 0 2px !important;
+    justify-items: center !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 0 !important;
+  }
+  .home-section-nav a i,
+  .home-section-nav a b {
+    display: none !important;
+  }
+  .home-section-nav a strong {
+    font-size: 11px !important;
+    letter-spacing: 0.02em !important;
+  }
+}
+
+/* sticky 生效前提：解除父容器裁切（overflow:hidden 会阻断 sticky 吸附） */
+main.home-main {
+  overflow: visible !important;
+}
+
+/* ===== 本地化改造：社区板块改为内容介绍 + 页脚精简 ===== */
+/* 1. 社区板块：隐藏动态列表（往期精选/本周热门/探索全部入口），只留标题介绍 */
+#official-plays .home-discovery {
+  display: none !important;
+}
+/* 2. 快速玩起来（悬浮快捷入口） */
+nav.play-quick-actions {
+  display: none !important;
+}
+/* 3. 页脚：隐藏三个链接栏目、备案链接、标语，只留品牌与版权行 */
+footer .footer-grid > div {
+  display: none !important;
+}
+footer .footer-legal > a {
+  display: none !important;
+}
+footer .footer-bottom > span:last-child {
+  display: none !important;
+}

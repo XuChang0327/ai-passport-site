@@ -1,0 +1,1 @@
+import{i as e}from"./framework-B91aVXPm.js";var t=e();function n({eyebrow:e,title:n,children:r}){return(0,t.jsxs)(`header`,{className:`section-page-heading`,children:[(0,t.jsx)(`p`,{className:`eyebrow`,children:e}),(0,t.jsxs)(`h1`,{children:[n,(0,t.jsx)(`span`,{"aria-hidden":`true`,children:`.`})]}),(0,t.jsx)(`p`,{className:`section-page-intro`,children:r})]})}export{n as t};

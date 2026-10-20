@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# 日志
+server.log
+*.log
+
+# 备份文件
+*.bak
+*.bak2
+*.bak3
+_next.bak/
+
+# 依赖
+node_modules/

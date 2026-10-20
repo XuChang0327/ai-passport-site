@@ -1,0 +1,1 @@
+var e=null,t=0,n,r=new Set,i=()=>e,a=()=>null;function o(e){return r.add(e),()=>{r.delete(e)}}function s(){clearTimeout(n),e=null,r.forEach(e=>e())}function c(i){clearTimeout(n),e={id:++t,message:i},r.forEach(e=>e()),n=setTimeout(s,3500)}export{o as a,c as i,a as n,i as r,s as t};

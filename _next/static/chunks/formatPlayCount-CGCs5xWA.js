@@ -1,0 +1,1 @@
+function e(e){return e>1e3?`1000+`:String(e)}export{e as t};

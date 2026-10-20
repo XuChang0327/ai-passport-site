@@ -1,0 +1,1 @@
+import{i as e}from"./rolldown-runtime-D8crsZiy.js";import{r as t}from"./framework-B91aVXPm.js";import{t as n}from"./motion-origin-C4Em2nuD.js";var r=e(t(),1);function i(){return(0,r.useEffect)(n,[]),null}export{i as MotionOrigins};
